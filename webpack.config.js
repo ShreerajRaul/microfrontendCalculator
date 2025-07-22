@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/index.js",
   mode: "production",
   output: {
-    filename: "bundle.js",
+    filename: "calculator-bundle.js",
     path: path.resolve(__dirname, "dist"),
     publicPath: "auto",
     library: "microfrontendCalculator",
